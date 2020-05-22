@@ -1,0 +1,6 @@
+/Users/pedro/Desktop/cmake_tutorials/Module_3/build/CMakeFiles/rebuild_cache.dir
+/Users/pedro/Desktop/cmake_tutorials/Module_3/build/CMakeFiles/edit_cache.dir
+/Users/pedro/Desktop/cmake_tutorials/Module_3/build/CMakeFiles/Module_3.dir
+/Users/pedro/Desktop/cmake_tutorials/Module_3/build/pr_libraries/CMakeFiles/rebuild_cache.dir
+/Users/pedro/Desktop/cmake_tutorials/Module_3/build/pr_libraries/CMakeFiles/edit_cache.dir
+/Users/pedro/Desktop/cmake_tutorials/Module_3/build/pr_libraries/CMakeFiles/my_utils.dir

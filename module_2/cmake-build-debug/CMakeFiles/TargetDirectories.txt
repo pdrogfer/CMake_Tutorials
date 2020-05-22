@@ -1,0 +1,5 @@
+/Users/pedro/Desktop/cmake_tutorials/module_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/pedro/Desktop/cmake_tutorials/module_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/pedro/Desktop/cmake_tutorials/module_2/cmake-build-debug/CMakeFiles/my_math_library.dir
+/Users/pedro/Desktop/cmake_tutorials/module_2/cmake-build-debug/CMakeFiles/module_2_debug.dir
+/Users/pedro/Desktop/cmake_tutorials/module_2/cmake-build-debug/CMakeFiles/module_2.dir

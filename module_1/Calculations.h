@@ -1,0 +1,1 @@
+int calculateDouble(int n);

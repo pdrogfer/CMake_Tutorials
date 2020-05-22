@@ -1,0 +1,2 @@
+/Users/pedro/Desktop/cmake_tutorials/Module_4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/pedro/Desktop/cmake_tutorials/Module_4/cmake-build-debug/CMakeFiles/edit_cache.dir
