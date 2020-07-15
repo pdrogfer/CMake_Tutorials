@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /usr/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/pedro/Desktop/cmake_tutorials/Module_3
+CMAKE_SOURCE_DIR = /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-deb
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug/CMakeFiles /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug/pr_libraries/CMakeFiles/progress.marks
-	cd /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 pr_libraries/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug/CMakeFiles 0
+	cd /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug/CMakeFiles /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug/pr_libraries/CMakeFiles/progress.marks
+	cd /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 pr_libraries/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 pr_libraries/clean
+	cd /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 pr_libraries/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 pr_libraries/preinstall
+	cd /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 pr_libraries/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 pr_libraries/preinstall
+	cd /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 pr_libraries/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 pr_libraries/CMakeFiles/my_utils.dir/rule:
-	cd /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 pr_libraries/CMakeFiles/my_utils.dir/rule
+	cd /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 pr_libraries/CMakeFiles/my_utils.dir/rule
 .PHONY : pr_libraries/CMakeFiles/my_utils.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ my_utils: pr_libraries/CMakeFiles/my_utils.dir/rule
 
 # fast build rule for target.
 my_utils/fast:
-	cd /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug && $(MAKE) -f pr_libraries/CMakeFiles/my_utils.dir/build.make pr_libraries/CMakeFiles/my_utils.dir/build
+	cd /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug && $(MAKE) -f pr_libraries/CMakeFiles/my_utils.dir/build.make pr_libraries/CMakeFiles/my_utils.dir/build
 .PHONY : my_utils/fast
 
 src/Utils.o: src/Utils.cpp.o
@@ -131,7 +131,7 @@ src/Utils.o: src/Utils.cpp.o
 
 # target to build an object file
 src/Utils.cpp.o:
-	cd /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug && $(MAKE) -f pr_libraries/CMakeFiles/my_utils.dir/build.make pr_libraries/CMakeFiles/my_utils.dir/src/Utils.cpp.o
+	cd /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug && $(MAKE) -f pr_libraries/CMakeFiles/my_utils.dir/build.make pr_libraries/CMakeFiles/my_utils.dir/src/Utils.cpp.o
 .PHONY : src/Utils.cpp.o
 
 src/Utils.i: src/Utils.cpp.i
@@ -140,7 +140,7 @@ src/Utils.i: src/Utils.cpp.i
 
 # target to preprocess a source file
 src/Utils.cpp.i:
-	cd /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug && $(MAKE) -f pr_libraries/CMakeFiles/my_utils.dir/build.make pr_libraries/CMakeFiles/my_utils.dir/src/Utils.cpp.i
+	cd /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug && $(MAKE) -f pr_libraries/CMakeFiles/my_utils.dir/build.make pr_libraries/CMakeFiles/my_utils.dir/src/Utils.cpp.i
 .PHONY : src/Utils.cpp.i
 
 src/Utils.s: src/Utils.cpp.s
@@ -149,7 +149,7 @@ src/Utils.s: src/Utils.cpp.s
 
 # target to generate assembly for a file
 src/Utils.cpp.s:
-	cd /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug && $(MAKE) -f pr_libraries/CMakeFiles/my_utils.dir/build.make pr_libraries/CMakeFiles/my_utils.dir/src/Utils.cpp.s
+	cd /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug && $(MAKE) -f pr_libraries/CMakeFiles/my_utils.dir/build.make pr_libraries/CMakeFiles/my_utils.dir/src/Utils.cpp.s
 .PHONY : src/Utils.cpp.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/pedro/Desktop/cmake_tutorials/Module_3/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_3/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

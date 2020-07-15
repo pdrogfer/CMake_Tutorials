@@ -1,0 +1,4 @@
+/usr/local/include/utils/Utils.h
+/usr/local/lib/my_utils/Module_3
+/usr/local/lib/my_utils/my_utils-config.cmake
+/usr/local/lib/my_utils/my_utils-config-noconfig.cmake

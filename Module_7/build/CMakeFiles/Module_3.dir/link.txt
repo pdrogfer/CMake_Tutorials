@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Module_3.dir/main.cpp.o  -o Module_3  pr_libraries/libmy_utils.a 

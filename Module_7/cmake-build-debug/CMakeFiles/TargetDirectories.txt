@@ -1,0 +1,14 @@
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/CMakeFiles/install/local.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/CMakeFiles/install.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/CMakeFiles/Module_3.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/pr_libraries/CMakeFiles/install/strip.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/pr_libraries/CMakeFiles/install/local.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/pr_libraries/CMakeFiles/install.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/pr_libraries/CMakeFiles/list_install_components.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/pr_libraries/CMakeFiles/rebuild_cache.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/pr_libraries/CMakeFiles/edit_cache.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_7/cmake-build-debug/pr_libraries/CMakeFiles/my_utils.dir

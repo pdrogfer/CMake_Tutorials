@@ -1,0 +1,5 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_8
+my_utils library was found
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_8/cmake-build-debug

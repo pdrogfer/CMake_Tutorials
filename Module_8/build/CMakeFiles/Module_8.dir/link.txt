@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Module_8.dir/main.cpp.o  -o Module_8  -lmy_utils 

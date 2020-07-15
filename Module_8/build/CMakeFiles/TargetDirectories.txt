@@ -1,0 +1,3 @@
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_8/build/CMakeFiles/rebuild_cache.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_8/build/CMakeFiles/edit_cache.dir
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_8/build/CMakeFiles/Module_8.dir

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_8/main.cpp
+iostream
+-
+utils/Utils.h
+/home/pedro/Dev/Pr_Cpp/CMake_Tutorials/Module_8/utils/Utils.h
+
